@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+html {
+  urse-selector: none;
+  font-size: 62.5%; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+  display: flex;
+  background: #ec2929; }
+  header a:nth-child(1) {
+    flex: 1;
+    color: #fff; }
+  header a:nth-child(2) {
+    flex: 3;
+    color: #fff; }
+  header a:nth-child(3) {
+    flex: 1;
+    color: #fff; }
+    header a:nth-child(3) img {
+      width: 20px;
+      height: 20px;
+      margin-top: 12px; }
+
+main {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+  height: 500px; }
+  main .banner {
+    width: 100%;
+    height: 5.5rem; }
+    main .banner img {
+      width: 100%;
+      height: 100%; }
+  main .nav {
+    width: 100%;
+    height: 9rem;
+    background: #fff; }
+    main .nav h2 {
+      width: 100%;
+      height: 2rem;
+      line-height: 2rem;
+      font-size: .7rem; }
+      main .nav h2 span {
+        padding-left: .5rem;
+        border-left: 5px solid red;
+        margin-left: 1rem; }
+    main .nav .nav-list {
+      width: 100%;
+      height: 7rem;
+      border-bottom: 1px solid #eee; }
+      main .nav .nav-list dl {
+        width: 25%;
+        height: 3.4rem;
+        border-right: 1px solid #eee;
+        border-top: 1px solid #eee;
+        float: left; }
+        main .nav .nav-list dl dt {
+          width: 1.3rem;
+          height: 1.5rem;
+          margin-left: 1.3rem;
+          margin-top: .5rem; }
+          main .nav .nav-list dl dt img {
+            width: 100%;
+            height: 100%; }
+        main .nav .nav-list dl dd {
+          font-size: .6rem;
+          text-align: center; }
+    main .nav .nav-list-two {
+      width: 100%;
+      height: 3.5rem;
+      border-bottom: 1px solid #eee; }
+      main .nav .nav-list-two dl {
+        width: 25%;
+        height: 3.4rem;
+        border-right: 1px solid #eee;
+        float: left; }
+        main .nav .nav-list-two dl dt {
+          width: 1.3rem;
+          height: 1.5rem;
+          margin-left: 1.3rem;
+          margin-top: .5rem; }
+          main .nav .nav-list-two dl dt img {
+            width: 100%;
+            height: 100%; }
+        main .nav .nav-list-two dl dd {
+          font-size: .6rem;
+          text-align: center; }
+  main .nav {
+    width: 100%;
+    height: 9rem;
+    background: #fff; }
+    main .nav h2 {
+      width: 100%;
+      height: 2rem;
+      line-height: 2rem;
+      font-size: .7rem; }
+      main .nav h2 span {
+        padding-left: .5rem;
+        border-left: 5px solid red;
+        margin-left: 1rem; }
+    main .nav .nav-list-two {
+      width: 100%;
+      height: 3.5rem;
+      border-bottom: 1px solid #eee;
+      margin-top: .5rem; }
+      main .nav .nav-list-two dl {
+        width: 25%;
+        height: 3.4rem;
+        border-right: 1px solid #eee;
+        float: left; }
+        main .nav .nav-list-two dl dt {
+          width: 1.3rem;
+          height: 1.5rem;
+          margin-left: 1.3rem;
+          margin-top: .5rem; }
+          main .nav .nav-list-two dl dt img {
+            width: 100%;
+            height: 100%; }
+        main .nav .nav-list-two dl dd {
+          font-size: .6rem;
+          text-align: center; }
+
+footer {
+  width: 100%;
+  height: 45px;
+  border-top: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  background: #fff; }
+  footer a {
+    flex: 1; }
+    footer a img {
+      width: 20px;
+      height: 20px;
+      margin-top: .2rem; }
+    footer a p {
+      font-size: .5rem; }
+
+/*# sourceMappingURL=style.css.map */
